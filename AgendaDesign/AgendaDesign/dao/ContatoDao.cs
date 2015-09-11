@@ -12,13 +12,7 @@ namespace AgendaDesign.dao
     {
         public void salvarContato(Contato contato)
         {
-            Stream conexao = File.Open(@"C:\Users\RodrigoFelipe\Documents\repositorios\GitHub\AgendaDesigne\arquivos\" + contato.Nome + ".txt", FileMode.Create);
-            StreamWriter salvar = new StreamWriter(conexao);
-            salvar.WriteLine(contato.Id);
-            salvar.WriteLine(contato.Nome);
-            salvar.WriteLine(contato.Telefone);
-            salvar.WriteLine(contato.Email);
-            salvar.WriteLine(contato.Nota);
+            
         }
 
     }
