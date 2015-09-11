@@ -34,10 +34,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.idTbx = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.nomeTbx = new System.Windows.Forms.TextBox();
+            this.telefoneTbx = new System.Windows.Forms.TextBox();
+            this.emailTbx = new System.Windows.Forms.TextBox();
+            this.notaTbx = new System.Windows.Forms.TextBox();
             this.salvarBtn = new System.Windows.Forms.Button();
             this.cancelarBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -100,34 +100,34 @@
             this.idTbx.Size = new System.Drawing.Size(64, 20);
             this.idTbx.TabIndex = 5;
             // 
-            // textBox1
+            // nomeTbx
             // 
-            this.textBox1.Location = new System.Drawing.Point(83, 69);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(203, 20);
-            this.textBox1.TabIndex = 6;
+            this.nomeTbx.Location = new System.Drawing.Point(83, 69);
+            this.nomeTbx.Name = "nomeTbx";
+            this.nomeTbx.Size = new System.Drawing.Size(203, 20);
+            this.nomeTbx.TabIndex = 6;
             // 
-            // textBox2
+            // telefoneTbx
             // 
-            this.textBox2.Location = new System.Drawing.Point(83, 100);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(203, 20);
-            this.textBox2.TabIndex = 7;
+            this.telefoneTbx.Location = new System.Drawing.Point(83, 100);
+            this.telefoneTbx.Name = "telefoneTbx";
+            this.telefoneTbx.Size = new System.Drawing.Size(203, 20);
+            this.telefoneTbx.TabIndex = 7;
             // 
-            // textBox3
+            // emailTbx
             // 
-            this.textBox3.Location = new System.Drawing.Point(83, 133);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(203, 20);
-            this.textBox3.TabIndex = 8;
+            this.emailTbx.Location = new System.Drawing.Point(83, 133);
+            this.emailTbx.Name = "emailTbx";
+            this.emailTbx.Size = new System.Drawing.Size(203, 20);
+            this.emailTbx.TabIndex = 8;
             // 
-            // textBox4
+            // notaTbx
             // 
-            this.textBox4.Location = new System.Drawing.Point(83, 170);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(203, 147);
-            this.textBox4.TabIndex = 9;
+            this.notaTbx.Location = new System.Drawing.Point(83, 170);
+            this.notaTbx.Multiline = true;
+            this.notaTbx.Name = "notaTbx";
+            this.notaTbx.Size = new System.Drawing.Size(203, 147);
+            this.notaTbx.TabIndex = 9;
             // 
             // salvarBtn
             // 
@@ -156,10 +156,10 @@
             this.ClientSize = new System.Drawing.Size(311, 392);
             this.Controls.Add(this.cancelarBtn);
             this.Controls.Add(this.salvarBtn);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.notaTbx);
+            this.Controls.Add(this.emailTbx);
+            this.Controls.Add(this.telefoneTbx);
+            this.Controls.Add(this.nomeTbx);
             this.Controls.Add(this.idTbx);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -180,10 +180,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox idTbx;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox nomeTbx;
+        private System.Windows.Forms.TextBox telefoneTbx;
+        private System.Windows.Forms.TextBox emailTbx;
+        private System.Windows.Forms.TextBox notaTbx;
         private System.Windows.Forms.Button salvarBtn;
         private System.Windows.Forms.Button cancelarBtn;
     }
