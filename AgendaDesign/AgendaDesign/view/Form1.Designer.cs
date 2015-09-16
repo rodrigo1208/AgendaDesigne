@@ -28,49 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contatosDgv = new System.Windows.Forms.DataGridView();
             this.adicionarBtn = new System.Windows.Forms.Button();
             this.editarBtn = new System.Windows.Forms.Button();
             this.removerBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.telefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.contatosDgv)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // contatosDgv
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.contatosDgv.AllowUserToAddRows = false;
+            this.contatosDgv.AllowUserToDeleteRows = false;
+            this.contatosDgv.AllowUserToResizeColumns = false;
+            this.contatosDgv.AllowUserToResizeRows = false;
+            this.contatosDgv.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.contatosDgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.contatosDgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
             this.nome,
             this.telefone});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 62);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(400, 299);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // id
-            // 
-            this.id.HeaderText = "Id";
-            this.id.Name = "id";
-            this.id.ReadOnly = true;
-            this.id.Width = 50;
-            // 
-            // nome
-            // 
-            this.nome.HeaderText = "Nome";
-            this.nome.Name = "nome";
-            this.nome.ReadOnly = true;
-            this.nome.Width = 200;
-            // 
-            // telefone
-            // 
-            this.telefone.HeaderText = "Telefone";
-            this.telefone.Name = "telefone";
-            this.telefone.ReadOnly = true;
+            this.contatosDgv.Location = new System.Drawing.Point(12, 62);
+            this.contatosDgv.Name = "contatosDgv";
+            this.contatosDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.contatosDgv.Size = new System.Drawing.Size(400, 299);
+            this.contatosDgv.TabIndex = 0;
             // 
             // adicionarBtn
             // 
@@ -90,6 +75,7 @@
             this.editarBtn.TabIndex = 2;
             this.editarBtn.Text = "Editar";
             this.editarBtn.UseVisualStyleBackColor = true;
+            this.editarBtn.Click += new System.EventHandler(this.editarBtn_Click);
             // 
             // removerBtn
             // 
@@ -111,20 +97,41 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Agenda";
             // 
+            // id
+            // 
+            this.id.HeaderText = "Id";
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            this.id.Width = 50;
+            // 
+            // nome
+            // 
+            this.nome.HeaderText = "Nome";
+            this.nome.Name = "nome";
+            this.nome.ReadOnly = true;
+            this.nome.Width = 200;
+            // 
+            // telefone
+            // 
+            this.telefone.HeaderText = "Telefone";
+            this.telefone.Name = "telefone";
+            this.telefone.ReadOnly = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
-            this.ClientSize = new System.Drawing.Size(424, 426);
+            this.ClientSize = new System.Drawing.Size(427, 426);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.removerBtn);
             this.Controls.Add(this.editarBtn);
             this.Controls.Add(this.adicionarBtn);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.contatosDgv);
             this.Name = "Form1";
             this.Text = "Agenda";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.contatosDgv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,7 +139,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView contatosDgv;
         private System.Windows.Forms.Button adicionarBtn;
         private System.Windows.Forms.Button editarBtn;
         private System.Windows.Forms.Button removerBtn;

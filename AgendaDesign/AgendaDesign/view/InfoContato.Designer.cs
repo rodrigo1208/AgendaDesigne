@@ -94,15 +94,16 @@
             // 
             // idTbx
             // 
-            this.idTbx.Enabled = false;
             this.idTbx.Location = new System.Drawing.Point(83, 34);
             this.idTbx.Name = "idTbx";
+            this.idTbx.ReadOnly = true;
             this.idTbx.Size = new System.Drawing.Size(64, 20);
-            this.idTbx.TabIndex = 5;
+            this.idTbx.TabIndex = 0;
+            this.idTbx.TabStop = false;
             // 
             // nomeTbx
             // 
-            this.nomeTbx.Location = new System.Drawing.Point(83, 69);
+            this.nomeTbx.Location = new System.Drawing.Point(83, 66);
             this.nomeTbx.Name = "nomeTbx";
             this.nomeTbx.Size = new System.Drawing.Size(203, 20);
             this.nomeTbx.TabIndex = 6;
@@ -147,6 +148,7 @@
             this.cancelarBtn.TabIndex = 11;
             this.cancelarBtn.Text = "Cancelar";
             this.cancelarBtn.UseVisualStyleBackColor = true;
+            this.cancelarBtn.Click += new System.EventHandler(this.cancelarBtn_Click);
             // 
             // InfoContato
             // 
@@ -167,6 +169,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "InfoContato";
+            this.Load += new System.EventHandler(this.InfoContato_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

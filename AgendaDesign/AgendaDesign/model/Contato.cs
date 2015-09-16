@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AgendaDesign.model
 {
-    class Contato
+    public class Contato
     {
         private int id;
         private string nome;
