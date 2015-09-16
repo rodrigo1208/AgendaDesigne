@@ -8,6 +8,19 @@ C:\Users\RodrigoFelipe\Documents\Projetos C#\AgendaDesign\AgendaDesign\obj\Debug
 C:\Users\RodrigoFelipe\Documents\Projetos C#\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.exe
 C:\Users\RodrigoFelipe\Documents\Projetos C#\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.pdb
 C:\Users\RodrigoFelipe\Documents\Projetos C#\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.view.InfoContato.resources
+<<<<<<< HEAD
 C:\Users\RodrigoFelipe\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\bin\Debug\AgendaDesign.exe.config
 C:\Users\RodrigoFelipe\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.exe
 C:\Users\RodrigoFelipe\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.pdb
+=======
+C:\Users\Usuario\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\bin\Debug\AgendaDesign.exe.config
+C:\Users\Usuario\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.exe
+C:\Users\Usuario\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.pdb
+C:\Users\Usuario\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\bin\Debug\AgendaDesign.exe
+C:\Users\Usuario\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\bin\Debug\AgendaDesign.pdb
+C:\Users\Usuario\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.view.InfoContato.resources
+C:\Users\Usuario\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.Form1.resources
+C:\Users\Usuario\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.Properties.Resources.resources
+C:\Users\Usuario\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.csproj.GenerateResource.Cache
+>>>>>>> 1491c0362e8b600cfd6d2a4e6cc8d4f59c723bda

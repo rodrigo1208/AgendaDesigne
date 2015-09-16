@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using AgendaDesign.dao;
+using AgendaDesign.model;
 
 namespace AgendaDesign.view
 {
@@ -21,6 +22,13 @@ namespace AgendaDesign.view
         private void salvarBtn_Click(object sender, EventArgs e)
         {
             ContatoDao contatoDao = new ContatoDao();
+            Contato contato = new Contato();
+            contato.Id = 1;
+            contato.Nome = nomeTbx.Text;
+            contato.Telefone = telefoneTbx.Text;
+            contato.Email = emailTbx.Text;
+            contato.Nota = notaTbx.Text;
+            contatoDao.salvarContato(contato);
         }
     }
 }
