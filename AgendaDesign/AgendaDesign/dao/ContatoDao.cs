@@ -24,7 +24,7 @@ namespace AgendaDesign.dao
             ler.Close();
             //Abre o arquivo e salva cada linha em um array
 
-            Stream sair = File.Open(@"Arquivo\" + contato.Nome + ".txt", FileMode.Create);
+            Stream sair = File.Open(@"Arquivo\" + contato.Id + ".txt", FileMode.Create);
             StreamWriter salvar = new StreamWriter(sair);
             salvar.WriteLine(contato.Id);
             salvar.WriteLine(contato.Nome);
@@ -37,7 +37,7 @@ namespace AgendaDesign.dao
 
             sair = File.Open(@"Arquivo\contatos.txt", FileMode.Create);
             salvar = new StreamWriter(sair);
-            linha[x] = contato.Nome;
+            linha[x] = Convert.ToString(contato.Id);
             for (int i = 0; i <= x; i++)
             {
                 salvar.WriteLine(linha[i]);

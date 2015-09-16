@@ -24,3 +24,10 @@ C:\Users\Usuario\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\Agenda
 C:\Users\Usuario\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.Properties.Resources.resources
 C:\Users\Usuario\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.csproj.GenerateResource.Cache
 >>>>>>> 1491c0362e8b600cfd6d2a4e6cc8d4f59c723bda
+C:\Users\RodrigoFelipe\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\bin\Debug\AgendaDesign.exe
+C:\Users\RodrigoFelipe\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\bin\Debug\AgendaDesign.pdb
+C:\Users\RodrigoFelipe\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.csprojResolveAssemblyReference.cache
+C:\Users\RodrigoFelipe\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.view.InfoContato.resources
+C:\Users\RodrigoFelipe\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.Form1.resources
+C:\Users\RodrigoFelipe\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.Properties.Resources.resources
+C:\Users\RodrigoFelipe\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.csproj.GenerateResource.Cache
