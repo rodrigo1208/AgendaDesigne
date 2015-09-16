@@ -8,3 +8,6 @@ C:\Users\RodrigoFelipe\Documents\Projetos C#\AgendaDesign\AgendaDesign\obj\Debug
 C:\Users\RodrigoFelipe\Documents\Projetos C#\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.exe
 C:\Users\RodrigoFelipe\Documents\Projetos C#\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.pdb
 C:\Users\RodrigoFelipe\Documents\Projetos C#\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.view.InfoContato.resources
+C:\Users\RodrigoFelipe\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\bin\Debug\AgendaDesign.exe.config
+C:\Users\RodrigoFelipe\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.exe
+C:\Users\RodrigoFelipe\Documents\repositorios\GitHub\AgendaDesigne\AgendaDesign\AgendaDesign\obj\Debug\AgendaDesign.pdb
